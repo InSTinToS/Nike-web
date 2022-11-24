@@ -1,12 +1,18 @@
-import { ReactNode } from 'react'
+'use client'
 import './globals.css'
+import { ReactNode } from 'react'
+import Navbar from '@components/templates/Navbar'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html>
       <head />
 
-      <body className='text-red-500'>{children}</body>
+      <body>
+        <Navbar />
+
+        {children}
+      </body>
     </html>
   )
 }

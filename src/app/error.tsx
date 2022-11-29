@@ -1,9 +1,9 @@
 'use client'
 
 import { useEffect } from 'react'
-import { IErrorProps } from '../types/next.types'
+import { INextError } from 'src/types/next.types'
 
-export default function Error({ error, reset }: IErrorProps) {
+export default function Error({ error, reset }: INextError) {
   useEffect(() => {
     console.log(error)
   }, [error])

@@ -16,10 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@public/*": ["./public/*"],
-      "@app/*": ["./src/app/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@components/*": ["./src/components/*"]
+      "@src/*": ["./src/*"]
     },
     "incremental": true,
     "plugins": [{ "name": "next" }]

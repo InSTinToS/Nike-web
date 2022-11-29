@@ -1,3 +1,5 @@
+import TestComponent from '@src/hocs/withRotate'
+
 export default function Home() {
   return (
     <main className='flex border-2 border-red-500'>

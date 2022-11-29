@@ -1,9 +1,10 @@
-'use client'
 import './globals.css'
-import { ReactNode } from 'react'
-import Navbar from '@components/templates/Navbar'
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+import Navbar from '@src/components/templates/Navbar'
+
+import { PropsWithChildren } from 'react'
+
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html>
       <head />

@@ -1,5 +1,8 @@
 import OriginalLink, { LinkProps } from 'next/link'
+import { PropsWithChildren } from 'react'
 
-export default function Link({ ...props }: LinkProps) {
-  return <OriginalLink {...props} />
+export interface ILinkProps extends PropsWithChildren, LinkProps {}
+
+export default function Link({ children, ...props }: ILinkProps) {
+  return <OriginalLink {...props}>{children}</OriginalLink>
 }

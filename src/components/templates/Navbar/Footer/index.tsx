@@ -7,7 +7,7 @@ import ArrowButton from '@src/components/atoms/ArrowButton'
 import Arrow from '@src/components/icons/Arrow'
 
 import SimpleSlider, {
-  ISliderForward
+  ISimpleSliderForward
 } from '@src/components/molecules/SimpleSlider'
 
 import { ReactNode, useRef } from 'react'
@@ -30,7 +30,7 @@ const items: ReactNode[] = [
 ]
 
 export default function Footer() {
-  const sliderRef = useRef<ISliderForward>(null)
+  const sliderRef = useRef<ISimpleSliderForward>(null)
 
   return (
     <footer className='py-2 w-screen bg-gray-100 px-2 sm:py-4'>

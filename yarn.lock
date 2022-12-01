@@ -1483,6 +1483,11 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+instintos-library@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/instintos-library/-/instintos-library-0.1.4.tgz#14d759853677600b7279884d1d63920a9ad832d9"
+  integrity sha512-ygTybvO8em92fDJVaKScEiSK22giF1A+IlFMdp75J8IJ2G2z60+S305JS5Gs7EfAVVr5wmJnR326m5ys6rDHqA==
+
 internal-slot@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/internal-slot/-/internal-slot-1.0.3.tgz#7347e307deeea2faac2ac6205d4bc7d34967f59c"

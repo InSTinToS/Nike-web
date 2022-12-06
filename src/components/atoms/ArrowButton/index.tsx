@@ -15,12 +15,17 @@ export default function ArrowButton({
   Arrow,
   direction,
   arrowProps,
+  className,
   ...props
 }: IArrowButtonProps) {
   const ArrowWithDirection = withRotate(Arrow, { direction })
 
   return (
-    <button type='button' {...props}>
+    <button
+      type='button'
+      className={`disabled:opacity-40 ${className}`}
+      {...props}
+    >
       <ArrowWithDirection {...arrowProps} />
     </button>
   )

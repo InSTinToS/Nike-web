@@ -1,6 +1,6 @@
 export default function Card() {
   return (
-    <section className='my-4'>
+    <section className=''>
       <img src='/chuteira.webp' alt='' />
 
       <footer className='flex flex-col items-center justify-center px-4 py-2 text-center'>

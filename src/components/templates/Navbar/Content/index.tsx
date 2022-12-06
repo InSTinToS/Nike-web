@@ -42,7 +42,7 @@ export default function Content() {
   const pathname = usePathname()
 
   return (
-    <section className='flex flex-row  flex-wrap pt-2 pb-4 px-4 max-w-7xl mx-auto lg:justify-between'>
+    <section className='flex flex-row flex-wrap pt-2 pb-4 px-4 max-w-7xl mx-auto lg:justify-between'>
       <Link href='/'>
         <Logo className='h-10 w-10 lg:h-20 lg:w-20' />
       </Link>

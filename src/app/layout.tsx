@@ -13,7 +13,7 @@ const queryClient = new QueryClient()
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html>
-      <head />
+      <head></head>
 
       <body>
         <Navbar />

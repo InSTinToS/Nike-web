@@ -7,7 +7,7 @@ import SNKRS from '@src/components/icons/SNKRS'
 export default function Navbar() {
   return (
     <nav className='sticky top-0 bg-white w-full shadow-md'>
-      <header className='hidden lg:bg-gray-100 lg:px-4 lg:flex lg:items-center lg:justify-between lg:py-1'>
+      <header className='hidden lg:bg-gray-100  lg:flex lg:items-center lg:justify-between lg:px-4 lg:py-1'>
         <button className='flex flex-row items-center'>
           <Jordan className='h-6 w-6 mr-2' />
 

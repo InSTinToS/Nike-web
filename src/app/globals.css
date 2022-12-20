@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'FuturaCondensedExtraBold'; 
+  src: local('FuturaCondensedExtraBold'),
+    url('../../public/fonts/FuturaCondensedExtraBold.otf') format("opentype"));
+}
